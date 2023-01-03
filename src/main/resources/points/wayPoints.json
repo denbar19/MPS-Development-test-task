@@ -1,0 +1,20 @@
+[
+  {
+    "latitude": 50.429949,
+    "longitude": 30.127291,
+    "altitude": 250,
+    "flightSpeed": 20
+  },
+  {
+    "latitude": 50.394112,
+    "longitude": 30.143728,
+    "altitude": 250,
+    "flightSpeed": 20
+  },
+  {
+    "latitude": 50.421286,
+    "longitude": 30.199642,
+    "altitude": 250,
+    "flightSpeed": 20
+  }
+]
