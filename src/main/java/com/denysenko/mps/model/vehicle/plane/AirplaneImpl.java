@@ -62,7 +62,7 @@ public class AirplaneImpl extends AirVehicle {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         List<WayPoint> wayPoints = super.getCurrentFlight().getWayPoints();
-        for (com.denysenko.mps.model.point.Point point : wayPoints) {
+        for (Point point : wayPoints) {
             point.draw(g);
         }
     }

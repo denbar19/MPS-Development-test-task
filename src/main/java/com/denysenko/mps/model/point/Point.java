@@ -17,18 +17,18 @@ public class Point {
     private final float altitude;
     private final float flightSpeed;
 
-    @Value("(java.lang.Integer)${frame.width}")
-    private int width;
+//    @Value("(java.lang.Integer)${frame.width}")
+    private int width = 1000;
 
-    @Value("(java.lang.Integer)${frame.height}")
-    private int height;
+//    @Value("(java.lang.Integer)${frame.height}")
+    private int height = 1000;
 
     private int scaleFactor;
     private int x;
     private int y;
 
     public void draw(Graphics g) {
-        int circleWidthHeight = 1;
+        int circleWidthHeight = 5;
 
         Graphics2D g2d = (Graphics2D) g;
 
@@ -38,6 +38,7 @@ public class Point {
         this.y = y;
 
         g2d.fillOval(x, y, circleWidthHeight, circleWidthHeight);
+        g2d.setColor(Color.DARK_GRAY);
     }
 
     private int getRoundCoordinate(double number) {

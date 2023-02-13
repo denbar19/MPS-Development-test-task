@@ -74,7 +74,7 @@ public class PlaneCalculator implements Calculator {
 
         double distanceToWayPoint = computer.getDesiredSegmentDistance();
         if (distanceToWayPoint <= precision) {
-            currentFlight.updateToNextWayPoint();
+            //currentFlight.updateToNextWayPoint();
         }
 
 

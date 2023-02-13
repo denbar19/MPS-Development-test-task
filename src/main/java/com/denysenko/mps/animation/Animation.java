@@ -10,6 +10,7 @@ import javax.swing.*;
 import java.awt.*;
 
 @RequiredArgsConstructor
+@org.springframework.stereotype.Component
 @Getter
 @Setter
 public class Animation extends JPanel {
@@ -38,7 +39,7 @@ public class Animation extends JPanel {
         frame.setVisible(true);
 
         setBackground(Color.BLACK);
-        setPreferredSize(new Dimension(width, height));
+        setPreferredSize(new Dimension(1000, 1000));
 
     }
 
